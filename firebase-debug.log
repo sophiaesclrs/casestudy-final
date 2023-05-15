@@ -1,0 +1,44 @@
+[debug] [2023-05-15T03:01:44.233Z] ----------------------------------------------------------------------
+[debug] [2023-05-15T03:01:44.257Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sophia Esclares\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2023-05-15T03:01:44.258Z] CLI Version:   3.12.0
+[debug] [2023-05-15T03:01:44.258Z] Platform:      win32
+[debug] [2023-05-15T03:01:44.259Z] Node Version:  v19.3.0
+[debug] [2023-05-15T03:01:44.260Z] Time:          Mon May 15 2023 11:01:44 GMT+0800 (Philippine Standard Time)
+[debug] [2023-05-15T03:01:44.260Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-15T03:01:44.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-15T03:01:44.315Z] > authorizing via signed-in user
+[debug] [2023-05-15T03:01:44.321Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2023-05-15T03:01:44.322Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token {
+  refresh_token: '1//0erkdm_iONi2WCgYIARAAGA4SNwF-L9IrskgPDKw3uksXNXTbg1aIFf2_LS90ntLD5kufGVj48_aPkPdZQpVb74-eVs1QH2ADhtk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid'
+} 
+ Mon May 15 2023 11:01:44 GMT+0800 (Philippine Standard Time)
+[debug] [2023-05-15T03:01:45.160Z] <<< HTTP RESPONSE 200
+[debug] [2023-05-15T03:01:45.183Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/casestudy1-dc7ed  
+ Mon May 15 2023 11:01:45 GMT+0800 (Philippine Standard Time)
+[info] 
+[warn] !  Your CLI authentication needs to be updated to take advantage of new features.
+[warn] !  Please run firebase login --reauth
+[info] 
+[debug] [2023-05-15T03:02:06.378Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2023-05-15T03:02:06.380Z] > authorizing via signed-in user
+[debug] [2023-05-15T03:02:06.382Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2023-05-15T03:02:06.383Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token {
+  refresh_token: '1//0erkdm_iONi2WCgYIARAAGA4SNwF-L9IrskgPDKw3uksXNXTbg1aIFf2_LS90ntLD5kufGVj48_aPkPdZQpVb74-eVs1QH2ADhtk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid'
+} 
+ Mon May 15 2023 11:02:06 GMT+0800 (Philippine Standard Time)
+[debug] [2023-05-15T03:02:06.787Z] <<< HTTP RESPONSE 200
+[debug] [2023-05-15T03:02:06.803Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/casestudy1-dc7ed  
+ Mon May 15 2023 11:02:06 GMT+0800 (Philippine Standard Time)
+[debug] [2023-05-15T03:02:28.288Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1471:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
